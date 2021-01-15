@@ -8,7 +8,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="371.0" prefWidth="253.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="446.0" prefWidth="253.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <MenuBar>
         <menus>
@@ -25,9 +25,8 @@
           </Menu>
         </menus>
       </MenuBar>
-      <TextArea fx:id="messagesTextArea" editable="false" prefHeight="281.0" prefWidth="253.0"/>
-      <TextField fx:id="inputTextField" onAction="#sendMessage" promptText="Input text" text="Some text to send"/>
-      <Button fx:id="sendMessageButton" alignment="CENTER" defaultButton="true" maxWidth="1000" mnemonicParsing="false" onAction="#sendMessage" prefHeight="26.0" prefWidth="248.0" text="Отправить">
-         </Button>
+       <TextArea fx:id="messagesTextArea" editable="false" prefHeight="240.0" prefWidth="248.0" />
+      <TextField fx:id="inputTextField" onAction="#sendMessage" promptText="Input text" text="Some text to send" />
+      <Button fx:id="sendMessageButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#sendMessage" prefHeight="26.0" prefWidth="248.0" text="Отправить"/>
    </children>
 </VBox>

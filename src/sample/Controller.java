@@ -17,7 +17,7 @@ public class Controller {
 
     @FXML
     public void pressedAbout(ActionEvent event) {
-        System.out.println("Author of this chat - Aleev Damir");
+        System.out.println("Author of this chat - Aleev Damir\nVersion 0.0.0.1");
     }
 
     @FXML
